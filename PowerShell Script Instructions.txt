@@ -1,0 +1,1 @@
+powershell.exe -ExecutionPolicy Bypass -File "C:\Micro 11 Barebones Powershell Script\Micro 11 Barebones.ps1"
