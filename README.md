@@ -5,7 +5,7 @@ This PS script was written by "mackyreddy", the maker of Windows Micro 11 Barebo
 
 It creates a heavily stripped down Windows 11, adds Portable Classic Calculator, Notepad, Paint and StartAllBack and also creates a TakeOwnership.cmd file in System32, apart from these files everything else is ready in Windows 11.
 
-Tested on Windows 11 Home 26H2 build 26300.9550. The ISO file was 1.07 GB, and the total installation size came around 3.80 GB.
+Tested on Windows 11 Home 26H2 build 26300.9550. The ISO file was 1.07 GB, and the total installation size came around 3.80 GB. DISM is not bundled, if you are already using a heavily stripped down Windows 11, script might throw DISM errors. Better use it on original.
 
 Unlike Tiny11, the code is huge and **performs a very deep clean,** similar to NTLite. Go through the code and inspect before using it.
 
