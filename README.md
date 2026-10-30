@@ -17,6 +17,7 @@ It creates a heavily stripped down Windows 11, adds Portable Classic Calculator,
 - Supports both x64 and ARM64 ISOs
 - Tested on Windows 11 Home 26H2 build 26300.9550. **The ISO file is 1.07 GB and the total installation size came around 3.80 GB**
 - DISM is not bundled, if you are already using a heavily stripped down Windows 11, script will throw DISM errors. Use it on the unmodified Windows
+- If you do not want ESD compression, you can replace "compress:recovery" values ​​in the script with "compress:max" or "compress:fast"
 
 ## Workflow
 <details>
