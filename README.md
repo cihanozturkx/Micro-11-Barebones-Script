@@ -5,9 +5,10 @@ This PowerShell script was written by "mackyreddy", the maker of Windows Micro 1
 
 ## Features
 - **Basically everything is removed beside basic desktop functionality**
-- Performs deep component (CBS aware) removal
-- Registry clean-up
+- Deep component (CBS aware) removal
 - WinSxS clean-up
+- Registry clean-up
+- Registry tweaks
 - Supports both x64 and ARM64 ISOs
 - Tested on Windows 11 Home 26H2 build 26300.9550. **The ISO file is 1.07 GB and the total installation size came around 3.80 GB**
 
