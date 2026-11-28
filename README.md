@@ -43,8 +43,3 @@ This PowerShell script was written by "mackyreddy", the maker of Windows Micro 1
 - Done
 </details>
 
-
-<p align="center">
-  <img src="https://www.elevenforum.com/attachments/micro-11-barebones-processes-detailed-view-webp.186140/" width="49%">
-  <img src="https://www.elevenforum.com/attachments/micro-11-barebones-memory-usage-webp.186138/" width="49%">
-</p>
