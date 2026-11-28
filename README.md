@@ -6,10 +6,19 @@ This PowerShell script was written by "mackyreddy", the maker of Windows Micro 1
 ## Features
 - **Basically everything is removed beside basic desktop functionality**
 - Performs deep component (CBS aware) removal
-- Rebuilds registry
-- No WinRE/Defender/Windows Updates/Servicing/DISM
+- Registry clean-up
+- WinSxS clean-up
 - Supports both x64 and ARM64 ISOs
 - Tested on Windows 11 Home 26H2 build 26300.9550. **The ISO file is 1.07 GB and the total installation size came around 3.80 GB**
+
+## Requirements
+- Stock Windows 11
+- PowerShell 7.7
+
+## Notes
+- No GUI or selections, everything is done by PowerShell. (For now)
+- WinRE, Windows Defender, Windows Updates are removed. No support for updates or servicing.
+- You can try running script on debloated Windows. But you will face DISM errors since DISM relies on WinSxS. A stock Windows is recommended.
 - If you do not want ESD compression, you can replace "compress:recovery" values ​​in the script with "compress:max" or "compress:fast"
 
 ## Workflow
