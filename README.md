@@ -7,6 +7,7 @@ This PowerShell script was written by "mackyreddy", the maker of Windows Micro 1
 - **Basically everything is removed beside basic desktop functionality**
 - Deep component (CBS aware) removal
 - WinSxS clean-up
+- Boot image clean-up
 - Registry clean-up
 - Registry tweaks
 - Supports both x64 and ARM64 ISOs
@@ -17,7 +18,7 @@ This PowerShell script was written by "mackyreddy", the maker of Windows Micro 1
 - PowerShell 7.7
 
 ## Notes 📝
-- Always Test it on VM.
+- Always test it on VM first.
 - No GUI or selections, everything is done by PowerShell. (For now)
 - WinRE, Windows Defender, Windows Updates are removed. No support for updates or servicing.
 - You can try running script on debloated Windows. But you will face DISM errors since DISM relies on WinSxS. A stock Windows is recommended.
