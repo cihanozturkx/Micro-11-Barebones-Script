@@ -17,10 +17,11 @@ This PowerShell script was written by "mackyreddy", the maker of Windows Micro 1
 - PowerShell 7.7
 
 ## Notes 📝
+- Always Test it on VM.
 - No GUI or selections, everything is done by PowerShell. (For now)
 - WinRE, Windows Defender, Windows Updates are removed. No support for updates or servicing.
 - You can try running script on debloated Windows. But you will face DISM errors since DISM relies on WinSxS. A stock Windows is recommended.
-- If you do not want ESD compression, you can replace "compress:recovery" values ​​in the script with "compress:max" or "compress:fast"
+- To disable ESD compression, you can replace "compress:recovery" values ​​in the script with "compress:max" or "compress:fast"
 
 ## Workflow 🔀
 <details>
